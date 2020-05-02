@@ -1,15 +1,19 @@
 {
-    "name": "Share in Telegram",
+    "name": "Share in Telegram1",
     "description": "Share current tab in Telegram desktop.",
     "manifest_version": 2,
-    "version": "1.4",
+    "version": "1.6",
     "browser_action": {
         "default_icon": {
             "96": "icon.png"
         },
         "default_popup": "index.html",
-        "default_title": "Share in Telegram"
+        "default_title": "Share in Telegram1"
     },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }],
     "icons": {
         "96": "icon.png",
 		"48": "icon48.png",

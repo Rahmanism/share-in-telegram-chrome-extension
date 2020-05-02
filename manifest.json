@@ -23,6 +23,6 @@
         "16": "icon16.png"
     },
     "permissions": [
-        "tabs"
+        "activeTab"
     ]
 }

@@ -2,10 +2,10 @@
     "name": "Share in Telegram",
     "description": "Share current tab in Telegram desktop.",
     "manifest_version": 2,
-    "version": "1.6",
+    "version": "1.7",
     "browser_action": {
         "default_icon": {
-            "96": "icon.png"
+            "128": "icon128.png"
         },
         "default_title": "Share in Telegram"
     },
@@ -17,10 +17,9 @@
         "scripts": ["js.js"]
     },
     "icons": {
-        "96": "icon.png",
-		"48": "icon48.png",
         "128": "icon128.png",
-        "16": "icon16.png"
+        "16": "icon16.png",
+		"48": "icon48.png"
     },
     "permissions": [
         "activeTab"
